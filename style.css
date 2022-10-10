@@ -1,0 +1,315 @@
+boby{
+    margin: 0;
+    padding: 0;
+}
+.class{
+   width: 100%;
+   height: 100%;
+}
+.section{
+    background-image: url(images/adhy.jpg);
+    width: 100%;
+    height: 160vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.navbar{
+   display: flex;
+   flex-direction: row;
+   padding-left: 30px;
+   align-items: center;
+   background-color:  rgb(43, 223, 226);
+    
+}
+.navbar ul{
+   flex-direction: row;
+   display: flex;
+   list-style: none;
+   align-items: center;
+   font-size: 25px;
+}
+.navbar button{
+   margin-right: 150px;
+   border-style: none;
+   background-color:  rgb(43, 223, 226);
+}
+.navbar select{
+   border-style: none;
+   background-color:  rgb(43, 223, 226);
+}
+
+.navbar a{
+   text-decoration:none;
+
+}
+
+.bar{
+   color: floralwhite;
+   display: flex;
+   flex-direction: row;
+   padding-left: 30px;
+   align-items: center;
+   background-color: darkgray;
+    
+}
+.bar ul{
+   flex-direction: row;
+   display: flex;
+   list-style: none;
+   align-items: center;
+   margin-bottom: 2%;
+}
+.bar ul li{
+   margin-right: 210px;
+
+}
+.bar a{
+   color: white;
+   text-decoration:none;
+
+
+}
+.bar a select{
+   border-style: none;
+   background-color: darkgray ;
+   color: white;
+}
+.bar a select:hover{
+   background-color:rgb(43, 223, 226);
+   color: white;
+}
+.bar a:hover{
+   background-color:rgb(43, 223, 226) ;
+   color: white;
+   border-style: none;
+}
+.nab{
+   align-items: center;
+   justify-content: space-between;
+   display: flex;
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: floralwhite;
+}
+.book{
+   margin-right: 20px;
+   background-color: floralwhite;
+   width:10% ;
+   padding: 2.5%;
+   
+}
+.book button{
+   border-style: none;
+   background-color: floralwhite;
+   margin-right: 3px;
+   background-color: rgb(43, 223, 226) ;
+   padding: 10px;
+   border-radius: 10px;
+}
+.book button:hover{
+   background-color: rgb(43, 223, 226) ;
+   color: white;
+}
+.modal{
+   height: 100vh;
+   width: 100vw;
+   justify-content:center ;
+   align-items: center;
+   position: fixed;
+   display: none;
+   
+}
+.add1{
+   height: 100vh;
+   width: 100vw;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   z-index: 10;
+   background-color: black;
+   opacity: 0.8;
+     
+}
+.form{
+   height: 500px;
+   width: 500px;
+   background-color: #ffffff;
+   padding: 10px;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   z-index: 20;
+}
+.form input{
+   width: 80%;
+   height: 40px;
+   border:1px solid #16a34a;
+   border-radius: 4px;
+   margin-bottom: 10px;
+   padding: 10px;
+   outline: none;
+}
+.submit-btn{
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #36f77c;
+   color: black;
+   border: 0;
+}
+.title{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 45px;
+   line-height:77px ;
+   display: flex;
+   align-items: center;
+   color: #16a34a;
+}
+   
+.more{
+   color: black;
+   margin-top: 100px;
+   margin-left: 250px;
+}
+.om{
+   font-size: 30px;
+}
+.getty{
+   display: flex;
+   flex-direction: row;
+   margin-left: 100px;
+   background-color:  white;
+   width: 50%;
+   box-shadow:5px 5px 5px black;
+   border-radius: 10px;
+   margin-top: 400px;
+}
+.gett select{
+   margin-left: 10px;
+   background-color:white;
+   height: 60px;
+   border-style: none;
+   height: 20px;
+   margin-top: 10px;
+}
+.gett select:hover{
+   background-color:rgb(43, 223, 226) ;
+   color: white;
+
+}
+.gett h4{
+   margin-left: 11px;
+}
+.get select{
+   margin-left: 10px;
+   background-color:white;
+   height: 60px;  
+   border-style: none;
+   height: 20px;
+   margin-top: 10px;
+}
+.get select:hover{
+   background-color: rgb(43, 223, 226) ;
+   color: white;
+}
+.get h4{
+   margin-left: 9px;
+}
+
+
+.gety input{
+   margin-left: 11px;
+   background-color: white;
+    height: 60px;
+   border-style: none;
+   height: 20px;
+   margin-top: 10px;
+}
+.gety input:hover{
+   background-color: rgb(43, 223, 226) ;
+   color: white;
+}
+.gety h4{
+   margin-left: 11px;
+
+
+}
+.geta button{
+   margin-left: 40px;
+   background-color:rgb(43, 223, 226) ;
+   height: 50px;
+   color: rgb(255, 255, 255);
+   width: 80%;
+   text-align: center;
+   border-radius: 5px;
+   border-style: none;
+   margin-top: 15px;
+}
+.geta button:hover{
+   background-color:rgb(43, 223, 226) ;
+   color: white;
+}
+
+.h1{
+   font-size: 30px;
+   color:rgb(43, 223, 226);
+   text-align: center;
+   margin-top: 40px;
+}
+.cat ul{
+   text-align:center;
+   list-style-type: none;
+
+}
+.cat li{
+   font-size: 30px;
+   margin-right: 70px;
+}
+
+.div{
+   display: flex;
+   flex-direction: row;
+   margin-left: 40%;
+
+}
+.center{
+   text-align: center;
+   color: black;
+}
+.center h1{
+   font-size: 30px;
+}
+.center p{
+   font-size: 25px;
+}
+.center button{
+   background-color:rgb(43, 223, 226) ;
+   color: white;
+   border-radius: 10px;
+   border-style: none;
+   padding: 10px;
+}
+.center button:hover{
+   background-color: rgb(43, 223, 226);
+   color: white;
+}
+.center1{
+   display: flex;
+   flex-direction: row;
+   color: black;
+   margin-left: 250px;
+   font-size: 20px;
+}
